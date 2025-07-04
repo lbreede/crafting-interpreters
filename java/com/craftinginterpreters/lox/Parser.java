@@ -153,7 +153,7 @@ class Parser {
         return new ParseError();
     }
 
-    private void synchornize() {
+    private void synchronize() {
         advance();
 
         while (!isAtEnd()) {
